@@ -1,0 +1,57 @@
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo{
+
+    display: flex;
+    gap: 12px;
+}
+.school{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.middle ul{
+display: flex;
+justify-content: space-between;
+gap: 25px;
+}
+.middle ul a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.home{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(254, 163, 1);
+
+}
+.about{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(1, 172, 253);
+}
+.facilities{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(5, 212, 223);
+}
+.admission{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(93, 88, 239);
+}
+
+.nav-button{
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+ }
