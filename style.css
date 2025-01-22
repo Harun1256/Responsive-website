@@ -1,7 +1,4 @@
 /* nav part */
-body{
-    border: 1px solid rgb(1, 172, 253);
-}
 .container{
     display: flex;
     justify-content:space-around;
@@ -244,6 +241,7 @@ font-family: "Quicksand", serif;
 } */
  /* our story part */
     .first-container{
+        position: relative;
         width: 100%;
         height: 900px;
         background: url(bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%)
@@ -260,7 +258,6 @@ background-color: rgb(255, 255, 255); ;
 }
 .article-one{
     border-radius: 10px;
-    /* width: 410px; */
     height: 100%;
     grid-area:article-one ;
 }
@@ -285,8 +282,18 @@ font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
+.article-one .November{
+    position: absolute;
+    top: 53.5%;
+    right: 82%;
+    background: rgb(60, 216, 232);
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+}
 .article-two{
-    /* width: 260px; */
     height: 100%;
     border-radius: 10px;
     grid-area:article-two ;
@@ -294,6 +301,17 @@ font-family: "Quicksand", serif;
 .article-two img{
     width: 100%;
     border-radius: 10px;
+}
+.article-two .November-one{
+    position: absolute;
+    top: 29%;
+    right: 43%;
+    background: rgb(149, 178, 38);
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
 }
 .article-two h5{
     margin-left: 20px;
@@ -303,7 +321,6 @@ font-family: "Quicksand", serif;
     font-style: normal;
 }
 .article-three{
-    /* width: 260px; */
     height: 100%;
     border-radius: 10px;
     grid-area: article-three;
@@ -319,8 +336,18 @@ font-family: "Quicksand", serif;
     width: 100%;
     border-radius: 10px;
 }
+.article-three .November-two{
+    position: absolute;
+    top: 29%;
+    left: 71%;
+    background: rgb(93, 88, 240);
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+}
 .article-four{
-    /* width: 260px; */
     height: 100%;
     border-radius: 10px;
     grid-area: article-four;
@@ -328,6 +355,17 @@ font-family: "Quicksand", serif;
 .article-four img{
     width: 100%;
     border-radius: 10px;
+}
+.article-four .November-three{
+    position: absolute;
+    top: 64%;
+    right: 43%;
+    background: rgb(149, 178, 38);
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
 }
 .article-four h5{
     margin-left: 20px;
@@ -337,7 +375,6 @@ font-family: "Quicksand", serif;
     font-style: normal;
 }
 .article-five{
-    /* width: 260px; */
     height: 100%;
     border-radius: 10px;
     grid-area: article-five;
@@ -345,6 +382,17 @@ font-family: "Quicksand", serif;
 .article-five img{
     width: 100%;
     border-radius: 10px;
+}
+.article-five .November-four{
+    position: absolute;
+    top: 64%;
+    right: 19.8%;
+    background: rgb(149, 178, 38);
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
 }
 .article-five h5{
     margin-left: 20px;
@@ -370,18 +418,6 @@ font-family: "Quicksand", serif;
     "article-one   article-four  article-five"
     ;
 }
-
-/* .view{
-    /* margin-top: 50px; */
-    /* margin-left: 600px; */
-    margin-left: 600px;
-    padding: 5px 20px;
-    border-radius: 5px;
-    border-style: none;
-    background: #000;
-    color: white;
-} */
-
 /* footer section */
 footer{
     font-family: "Quicksand", serif;
