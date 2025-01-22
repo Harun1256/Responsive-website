@@ -1,4 +1,7 @@
 /* nav part */
+body{
+    border: 1px solid rgb(1, 172, 253);
+}
 .container{
     display: flex;
     justify-content:space-around;
@@ -240,8 +243,7 @@ font-family: "Quicksand", serif;
     .first-container{
         width: 100%;
         height: 800px;
-        background-image:url(bg.png);
-        background:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+        background: url(bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%)
     }
     .first-container h2{
 text-align: center;
@@ -250,70 +252,144 @@ margin-top: 100px;
 .article-one, .article-two, .article-three, .article-four, .article-five{
 padding: 5px;
 border-radius: 5px;
+background-color: rgb(255, 255, 255); ;
 }
 .article-one{
     border-radius: 10px;
-    width: 500px;
-    height: 600px;
+    width: 410px;
+    height: 515px;
     grid-area:article-one ;
-    background-color: rgb(255, 255, 255);
 }
 .article-one img{
     width: 100%;
     border-radius: 10px;
 }
+.article-one h5 {
+    color: rgb(0, 0, 0);
+font-size: 20px;
+margin-left: 20px;
+}
+.article-one p{
+    color: rgb(102, 102, 102);
+font-size: 14px;
+margin-left: 20px;
+}
 .article-two{
-    width: 300px;
-    height: 280px;
+    width: 260px;
+    height: 240px;
     border-radius: 10px;
     grid-area:article-two ;
-    background-color: rgb(255, 255, 255);
 }
 .article-two img{
     width: 100%;
     border-radius: 10px;
 }
+.article-two h5{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+}
 .article-three{
-    width: 300px;
-    height: 280px;
+    width: 260px;
+    height: 240px;
     border-radius: 10px;
     grid-area: article-three;
-    background-color:rgb(255, 255, 255);
+}
+.article-three h5{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
 }
 .article-three img{
     width: 100%;
     border-radius: 10px;
 }
 .article-four{
-    width: 300px;
-    height: 280px;
+    width: 260px;
+    height: 240px;
     border-radius: 10px;
     grid-area: article-four;
-    background-color: rgb(255, 255, 255);
 }
 .article-four img{
     width: 100%;
     border-radius: 10px;
 }
+.article-four h5{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+}
 .article-five{
-    width: 300px;
-    height: 280px;
+    width: 260px;
+    height: 240px;
     border-radius: 10px;
     grid-area: article-five;
-    background-color: rgb(255, 255, 255);
 }
 .article-five img{
     width: 100%;
     border-radius: 10px;
 }
+.article-five h5{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+}
 .main-container{
     justify-content: center;
     align-items: center;
-    background-image: url(bg.png);
     gap: 25px;
     display: grid;
     grid-template-areas: 
     "article-one   article-two   article-three"
     "article-one   article-four  article-five"
     ;
+}
+
+.view{
+    margin-top: 50px;
+    margin-left: 600px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-style: none;
+    background: #000;
+    color: white;
+}
+/* footer section */
+footer{
+    background-color:rgb(1, 172, 253);
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.main-footer{
+    width: 100%;
+    height: 500px;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.png{
+    display: flex;
+    color: white;
+    margin-top: -30px;
+}
+.kids p{
+    margin: 10px;
+}
+.footer-about h4{
+    margin-left: 36px;
+    color: white;
+}
+.footer-about ul a{
+    text-decoration: none;
+    color: white;
+}
+.footer-about{
+    margin-top: -15px;
+}
+.kids p{
+    color: white;
+}
+.face{
+    margin-top: -120px;
+}
+.face h4{
+    color: white;
 }
