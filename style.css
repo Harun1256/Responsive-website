@@ -57,6 +57,13 @@ gap: 25px;
     border-radius: 10px;
     border-style: none;
     }
+    marquee{
+        font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+        color: orangered;
+        margin: 0px 100px;
+    }
 @media screen and (max-width:576px){
     .container{
         display: flex;
