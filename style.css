@@ -149,8 +149,8 @@ gap: 30px;
 
 }
 .kind{
-    width: 320px;
-    height: 400px;
+    /* width: 320px; */
+    /* height: 400px; */
     text-align: center;
     background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
     box-sizing: border-box;
@@ -159,6 +159,7 @@ gap: 30px;
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 15px;
 
 }
 .kind a{
@@ -171,8 +172,8 @@ gap: 30px;
     padding: 30px 0px;
 }
 .element{
-    width: 320px;
-    height: 400px;
+    /* width: 320px; */
+    /* height: 400px; */
     text-align: center;
     background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
     box-sizing: border-box;
@@ -181,6 +182,7 @@ border-radius: 18.86px;
 font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 15px;
 }
 .element .book{
     width: 100px;
@@ -192,8 +194,8 @@ font-family: "Quicksand", serif;
     color: rgb(240, 170, 0);
 }
 .last{
-    width: 320px;
-    height: 400px;
+    /* width: 320px; */
+    /* height: 400px; */
     text-align: center;
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
     box-sizing: border-box;
@@ -202,6 +204,7 @@ border-radius: 18.86px;
 font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 15px;
 }
 .last .pencil{
     width: 100px;
@@ -213,7 +216,7 @@ font-family: "Quicksand", serif;
     color: rgb(135, 0, 255);
 }
 .arrow{
-    margin: 60px;
+    margin: 45px;
     width: 60px;
     height: 60px;
 }
@@ -242,8 +245,9 @@ font-family: "Quicksand", serif;
  /* our story part */
     .first-container{
         width: 100%;
-        height: 800px;
+        height: 900px;
         background: url(bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%)
+        
     }
     .first-container h2{
 text-align: center;
@@ -256,27 +260,34 @@ background-color: rgb(255, 255, 255); ;
 }
 .article-one{
     border-radius: 10px;
-    width: 410px;
-    height: 515px;
+    /* width: 410px; */
+    height: 100%;
     grid-area:article-one ;
 }
 .article-one img{
     width: 100%;
+    height: 400px;
     border-radius: 10px;
 }
 .article-one h5 {
     color: rgb(0, 0, 0);
 font-size: 20px;
 margin-left: 20px;
+font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .article-one p{
     color: rgb(102, 102, 102);
 font-size: 14px;
 margin-left: 20px;
+font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .article-two{
-    width: 260px;
-    height: 240px;
+    /* width: 260px; */
+    height: 100%;
     border-radius: 10px;
     grid-area:article-two ;
 }
@@ -287,24 +298,30 @@ margin-left: 20px;
 .article-two h5{
     margin-left: 20px;
     color: rgb(0, 0, 0);
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .article-three{
-    width: 260px;
-    height: 240px;
+    /* width: 260px; */
+    height: 100%;
     border-radius: 10px;
     grid-area: article-three;
 }
 .article-three h5{
     margin-left: 20px;
     color: rgb(0, 0, 0);
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .article-three img{
     width: 100%;
     border-radius: 10px;
 }
 .article-four{
-    width: 260px;
-    height: 240px;
+    /* width: 260px; */
+    height: 100%;
     border-radius: 10px;
     grid-area: article-four;
 }
@@ -315,10 +332,13 @@ margin-left: 20px;
 .article-four h5{
     margin-left: 20px;
     color: rgb(0, 0, 0);
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .article-five{
-    width: 260px;
-    height: 240px;
+    /* width: 260px; */
+    height: 100%;
     border-radius: 10px;
     grid-area: article-five;
 }
@@ -329,10 +349,20 @@ margin-left: 20px;
 .article-five h5{
     margin-left: 20px;
     color: rgb(0, 0, 0);
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.last-b{
+    margin-left: 600px;
+    background: #000;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 15px;
 }
 .main-container{
-    justify-content: center;
-    align-items: center;
+    margin: 70px;
     gap: 25px;
     display: grid;
     grid-template-areas: 
@@ -341,18 +371,19 @@ margin-left: 20px;
     ;
 }
 
-.view{
-    margin-top: 50px;
+/* .view{
+    /* margin-top: 50px; */
+    /* margin-left: 600px; */
     margin-left: 600px;
     padding: 5px 20px;
     border-radius: 5px;
     border-style: none;
     background: #000;
     color: white;
-}
+} */
+
 /* footer section */
 footer{
-    background-color:rgb(1, 172, 253);
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -364,6 +395,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:rgb(1, 172, 253);
 }
 .png{
     display: flex;
